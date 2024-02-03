@@ -40,7 +40,7 @@ class LoginPage extends StatelessWidget{
                 left: 0,
                 right: 0,
                 child: Container(
-                  height: 80,
+                  height: 60,
                   width:400,
                   decoration: const BoxDecoration(
                     color: Colors.white,
@@ -155,11 +155,11 @@ class LoginPage extends StatelessWidget{
 
 
               Positioned(
-                top: 30,
+                top: 0,
                 left: 20,
                 right: 0,
                 child: Container(
-                  height: 200,
+                  height: 130,
                   width:400,
                   decoration: const BoxDecoration(
                     color: Colors.white,
@@ -182,7 +182,7 @@ class LoginPage extends StatelessWidget{
                         endIndent: 20,
                       ),
                       Positioned(
-                        top:08,
+                        top:0,
                         left:0,
                         right: 30,
                         child: Center(
@@ -288,7 +288,7 @@ class LoginPage extends StatelessWidget{
                 left: 10,
                 right: 20,
                 child: Container(
-                  height: 500,
+                  height: 475,
                   width:400,
                   decoration: const BoxDecoration(
                     color: Colors.white,
@@ -302,14 +302,14 @@ class LoginPage extends StatelessWidget{
                     children: [
                       Divider(
                         color: Colors.grey,
-                        thickness: 1.5,
+                        thickness: 1,
                         indent: 20,
                         endIndent: 20,
                       ),
 
                       Divider(
                         color: Colors.white,
-                        thickness: 5,
+                        thickness: 1,
                         indent: 20,
                         endIndent: 20,
                       ),
@@ -361,7 +361,7 @@ class LoginPage extends StatelessWidget{
                                                   children: [
                                                     new Container(
                                                       width: 170.0,
-                                                      height: 50.0,
+                                                      height: 48.0,
                                                       decoration:  BoxDecoration(
 
                                                         color: Colors.white,
@@ -409,7 +409,7 @@ class LoginPage extends StatelessWidget{
                                                     new Container(
 
                                                       width:170.0,
-                                                      height: 50.0,
+                                                      height: 46.0,
                                                       decoration:  BoxDecoration(
 
                                                         color: Colors.white54,
@@ -456,7 +456,7 @@ class LoginPage extends StatelessWidget{
                                               ],
                                             ),
                                             const SizedBox(
-                                              height: 20,
+                                              height: 10,
                                             ),
                                           ],
                                         ),
@@ -475,7 +475,7 @@ class LoginPage extends StatelessWidget{
 
                               Divider(
                                 color: Colors.white,
-                                thickness: 5,
+                                thickness: 1,
                                 indent: 20,
                                 endIndent: 20,
                               ),
@@ -483,7 +483,7 @@ class LoginPage extends StatelessWidget{
 
                               Divider(
                                 color: Colors.white,
-                                thickness: 5,
+                                thickness: 1,
                                 indent: 20,
                                 endIndent: 20,
                               ),
@@ -564,7 +564,7 @@ class LoginPage extends StatelessWidget{
 
                               Divider(
                                 color: Colors.white,
-                                thickness: 5,
+                                thickness: 1,
                                 indent: 20,
                                 endIndent: 20,
                               ),
@@ -612,4 +612,3 @@ class LoginPage extends StatelessWidget{
     );
 
   }
-}
